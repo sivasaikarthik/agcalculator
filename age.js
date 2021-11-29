@@ -12,7 +12,7 @@ function calculateAge()
    var age;
    if(year>0)
    { 
-       age=year+" years"+month+" months" +days+" days old";
+       age=year+" years "+month+" months " +days+" days old";
    } 
    else if(month>0)
    {
@@ -23,11 +23,11 @@ function calculateAge()
       age=days+" days old";
    }
 
-  alert(age);
+  date.innerHTML=age
 }
 else
 {
     age=("Bady will be born on "+x.getDate()+"/"+x.getMonth()+"/"+x.getFullYear())
-    alert(age);
+    date.innerHTML=age
 }
 }
