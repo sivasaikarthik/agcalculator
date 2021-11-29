@@ -28,20 +28,12 @@ body{
 	font-size: 1.2rem;
 	text-transform: uppercase;
 }
-@media (max-width: 600px)
-{
-	.box
-	{
-		width: 300px;
-	}
-	.box 
-	{
-		display: block;
-	}
-	.box  input
-	{
-		margin: 10px 0;
-		width: 100%;
-	}
-	
+button{
+    float: right;
+
+}
+p{
+    font-size: medium;
+    color: green;
+    
 }
